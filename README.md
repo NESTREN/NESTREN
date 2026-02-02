@@ -1,16 +1,40 @@
-## Hi there 👋
+# 👋 Привет, я Юрий
 
-<!--
-**NESTREN/NESTREN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Начинающий **Python-разработчик**,  
+специализируюсь на разработке **Telegram-ботов** и автоматизации.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠 Стек технологий
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![aiogram](https://img.shields.io/badge/aiogram-async-green)
+![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)
+![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
+![GitHub](https://img.shields.io/badge/Git-GitHub-black)
+
+---
+
+## 🚀 Чем занимаюсь
+- 🤖 Разработка Telegram-ботов
+- 🧠 FSM и асинхронная логика
+- 🗄 Работа с базами данных (SQLite)
+- 🛠 Админ-панели внутри Telegram
+- 📦 Чистая и масштабируемая архитектура
+
+---
+
+## 📌 Проекты
+### 🤖 support-bot-aio
+Telegram helpdesk-бот с системой тикетов, админ-панелью, поддержкой изображений и базой данных SQLite.
+
+🔗 https://github.com/NESTREN/support-bot-aio
+
+---
+
+## 🎯 Цель
+Развиваться как Python-разработчик и работать с реальными проектами и Telegram API.
+
+---
+
+## 📫 Контакты
+- Telegram: **@nestren**
