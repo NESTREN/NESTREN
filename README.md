@@ -42,6 +42,15 @@ Telegram helpdesk-бот с системой тикетов, админ-пане
 
 🔗 https://github.com/NESTREN/support-bot-aio
 
+### 📊 Дополнительный проект
+🤖 **aiobtcbottg**
+
+Простой Telegram-бот, который показывает актуальный курс
+Bitcoin (BTC) и Ethereum (ETH) по команде `/price`.
+
+🔗 https://github.com/NESTREN/aiobtcbottg
+
+
 ---
 
 ## 🎯 Цель
