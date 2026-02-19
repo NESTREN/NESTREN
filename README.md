@@ -64,6 +64,12 @@ Telegram helpdesk-бот с системой тикетов, админ-пане
 
 🔗https://github.com/NESTREN/support-bot-aio
 
+🤖 **aio-shifr-bot**
+
+Простой и удобный Telegram-бот на aiogram 3 для шифрования и расшифровки сообщений
+в собственном формате SHIFR1.<payload>.
+
+🔗https://github.com/NESTREN/aio-shifr-bot
 
 
 ---
