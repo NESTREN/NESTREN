@@ -41,24 +41,41 @@
 ## 🗺 Схема текущих репозиториев (по направлениям)
 
 ```mermaid
-mindmap
-  root((NESTREN Projects))
-    Telegram Bots
-      aio-warehouse-bot
-        складской учет
-        отчеты и массовая загрузка
-      aio-sell-bot
-        Telegram-магазин
-        быстрый запуск
-      support-bot-aio
-        helpdesk + тикеты
-      aiobtcbottg
-        курс BTC/ETH
-      aio-shifr-bot
-        шифрование/расшифровка
-    Java
-      biome-nickname-plugin
-        Minecraft Paper plugin
+flowchart LR
+    A[🚀 NESTREN Projects]
+
+    subgraph T[🤖 Telegram Bots]
+      B[aio-warehouse-bot
+Складской учет + отчеты]
+      C[aio-sell-bot
+Telegram-магазин]
+      D[support-bot-aio
+Helpdesk + тикеты]
+      E[aiobtcbottg
+Курс BTC/ETH]
+      F[aio-shifr-bot
+SHIFR1 шифрование]
+    end
+
+    subgraph J[☕ Java]
+      G[biome-nickname-plugin
+Minecraft Paper]
+    end
+
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    A --> F
+    A --> G
+
+    classDef core fill:#1f6feb,color:#ffffff,stroke:#58a6ff,stroke-width:1px;
+    classDef tg fill:#0d1117,color:#c9d1d9,stroke:#2ea043,stroke-width:1px;
+    classDef java fill:#161b22,color:#f0f6fc,stroke:#d29922,stroke-width:1px;
+
+    class A core;
+    class B,C,D,E,F tg;
+    class G java;
 ```
 
 ---
@@ -93,8 +110,12 @@ mindmap
 ## 📈 GitHub активность
 
 <p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=NESTREN&show_icons=true&theme=tokyonight" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NESTREN&layout=compact&theme=tokyonight" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nestren&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=nestren&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
+
+<p>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nestren&theme=tokyo-night&hide_border=true" alt="GitHub activity graph" />
 </p>
 
 ---
