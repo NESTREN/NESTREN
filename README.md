@@ -1,90 +1,127 @@
-# 👋 Привет, я Юрий
+# 👋 Привет, я Юрий (@NESTREN)
 
-💻 **Python-разработчик**, специализируюсь на разработке **Telegram-ботов** и автоматизации.
+💻 **Python-разработчик**, фокус: **Telegram-боты, автоматизация, чистая архитектура, быстрый запуск MVP**.
 
----
-
-## 🛠 Стек технологий
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
-![aiogram](https://img.shields.io/badge/aiogram-async-green)
-![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)
-![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
-![GitHub](https://img.shields.io/badge/Git-GitHub-black)
-
-
----
-
-## 🚀 Чем занимаюсь
-- 🤖 Разработка Telegram-ботов
-- 🧠 FSM и асинхронная логика
-- 🗄 Работа с базами данных (SQLite)
-- 🛠 Админ-панели внутри Telegram
-- 📦 Чистая и масштабируемая архитектура
+<p align="left">
+  <a href="https://github.com/NESTREN">
+    <img src="https://komarev.com/ghpvc/?username=NESTREN&label=Profile%20views&color=0e75b6&style=flat" alt="profile views"/>
+  </a>
+  <a href="https://github.com/NESTREN?tab=followers">
+    <img src="https://img.shields.io/github/followers/NESTREN?label=Followers&style=social" alt="followers"/>
+  </a>
+</p>
 
 ---
 
-## 🧭 В планах
-- PostgreSQL
-- Docker
-- Асинхронные очереди
-- Деплой ботов на сервер
+## 🧠 Профиль в 30 сек
+- 🤖 Проектирую и разрабатываю Telegram-ботов на **aiogram**
+- 🏗 Умею строить логику через **FSM**, сервисный слой и модули
+- 🗄 Работаю с **SQLite**, постепенно усиливаю стек в сторону **PostgreSQL**
+- 🚀 Делаю решения, которые можно быстро запустить и поддерживать
+- 🔧 Люблю понятную структуру проекта, DX и аккуратный UX в Telegram
 
 ---
 
-## 📌 Проекты
+## 🛠 Технологический стек
 
-### ⭐ Большие проекты
+### Основной
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![aiogram](https://img.shields.io/badge/aiogram-3.x-2CA5E0)
+![Telegram](https://img.shields.io/badge/Telegram-Bot-26A5E4?logo=telegram&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
 
-🤖 **aio-warehouse-bot**  
+### Изучаю / усиливаю
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-learning-336791?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-learning-2496ED?logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-planned-DC382D?logo=redis&logoColor=white)
 
-Современный склад‑бот для бизнеса: удобные кнопки, учет остатков, склады, отчеты и массовая загрузка — все прямо в Telegram.
+---
 
-🔗 https://github.com/NESTREN/aio-warehouse-bot
+## 🗺 Схема текущих репозиториев (по направлениям)
 
-🤖 **aio-sell-bot**
+```mermaid
+flowchart LR
+    A[🚀 NESTREN Projects]
 
-SellBot - готовый Telegram-магазин с чистой архитектурой, удобным UX и быстрым запуском.
+    subgraph T[🤖 Telegram Bots]
+      B[aio-warehouse-bot
+Складской учет + отчеты]
+      C[aio-sell-bot
+Telegram-магазин]
+      D[support-bot-aio
+Helpdesk + тикеты]
+      E[aiobtcbottg
+Курс BTC/ETH]
+      F[aio-shifr-bot
+SHIFR1 шифрование]
+    end
 
-🔗https://github.com/NESTREN/aio-sell-bot
+    subgraph J[☕ Java]
+      G[biome-nickname-plugin
+Minecraft Paper]
+    end
 
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    A --> F
+    A --> G
 
-### 📊 Мелкие проекты
+    classDef core fill:#1f6feb,color:#ffffff,stroke:#58a6ff,stroke-width:1px;
+    classDef tg fill:#0d1117,color:#c9d1d9,stroke:#2ea043,stroke-width:1px;
+    classDef java fill:#161b22,color:#f0f6fc,stroke:#d29922,stroke-width:1px;
 
-🤖 **aiobtcbottg**
+    class A core;
+    class B,C,D,E,F tg;
+    class G java;
+```
 
-Простой Telegram-бот, который показывает актуальный курс
-Bitcoin (BTC) и Ethereum (ETH) по команде `/price`.
+---
 
-🔗 https://github.com/NESTREN/aiobtcbottg
+## 🚀 Проекты
 
-🤖 **support-bot-aio**  
+### ⭐ Ключевые проекты
+| Проект | Что делает | Технологии | Ссылка |
+|---|---|---|---|
+| **aio-warehouse-bot** | Склад-бот для бизнеса: остатки, склады, отчеты, массовая загрузка | Python, aiogram, SQLite | [GitHub](https://github.com/NESTREN/aio-warehouse-bot) |
+| **aio-sell-bot** | Готовый Telegram-магазин с чистой архитектурой и удобным UX | Python, aiogram, SQLite | [GitHub](https://github.com/NESTREN/aio-sell-bot) |
 
-Telegram helpdesk-бот с системой тикетов, админ-панелью,
-поддержкой изображений и базой данных SQLite.
+### 📦 Другие проекты
+| Проект | Кратко | Ссылка |
+|---|---|---|
+| **aiobtcbottg** | Бот с актуальным курсом BTC/ETH по `/price` | [GitHub](https://github.com/NESTREN/aiobtcbottg) |
+| **support-bot-aio** | Helpdesk-бот: тикеты, админ-панель, изображения, SQLite | [GitHub](https://github.com/NESTREN/support-bot-aio) |
+| **aio-shifr-bot** | Шифрование/расшифровка сообщений в формате `SHIFR1.<payload>` | [GitHub](https://github.com/NESTREN/aio-shifr-bot) |
+| **biome-nickname-plugin** | Java-плагин для Minecraft Paper: цветной индикатор в чате и табе | [GitHub](https://github.com/NESTREN/biome-nickname-plugin) |
 
-🔗https://github.com/NESTREN/support-bot-aio
+---
 
-🤖 **aio-shifr-bot**
+## 🧭 Roadmap
+- [ ] Переводить новые проекты на PostgreSQL
+- [ ] Контейнеризировать ботов через Docker
+- [ ] Добавить фоновые задачи/очереди
+- [ ] Настроить production-ready деплой на VPS
+- [ ] Сделать шаблон собственного boilerplate для Telegram-ботов
 
-Простой и удобный Telegram-бот на aiogram 3 для шифрования и расшифровки сообщений
-в собственном формате SHIFR1.<payload>.
+---
 
-🔗https://github.com/NESTREN/aio-shifr-bot
+## 📈 GitHub активность
 
-### ☕ Джава проекты
+<p>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nestren&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=nestren&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
 
-🌍**biome-nickname-plugin**
-
-Красивый и лёгкий плагин для Minecraft (Paper), который добавляет цветной кружочек возле ника игрока: в чате и таб листе.
-
-🔗https://github.com/NESTREN/biome-nickname-plugin
+<p>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nestren&theme=tokyo-night&hide_border=true" alt="GitHub activity graph" />
+</p>
 
 ---
 
 ## 🎯 Цель
-Развиваться как Python-разработчик и работать с реальными проектами и Telegram API.
-
----
+Расти как backend/Python-инженер и создавать полезные Telegram-продукты: от идеи до стабильного продакшн-решения.
 
 ## 📫 Контакты
-- Telegram: **@nestren**
+- Telegram: **[@nestren](https://t.me/nestren)**
