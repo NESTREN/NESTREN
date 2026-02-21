@@ -126,8 +126,12 @@ AFK рыбалка в Minecraft]
 ## 📈 GitHub активность
 
 <p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nestren&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nestren&theme=github_dark" alt="GitHub stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=nestren&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
+
+<p>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nestren&theme=github_dark" alt="GitHub profile details" />
 </p>
 
 <p>
