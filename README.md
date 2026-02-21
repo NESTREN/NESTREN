@@ -1,13 +1,16 @@
 # 👋 Привет, я Юрий (@NESTREN)
 
-💻 **Python-разработчик**, фокус: **Telegram-боты, автоматизация, чистая архитектура, быстрый запуск MVP**.
+💻 **Python-разработчик**, фокус: **Telegram-боты, автоматизация, чистая архитектура и быстрый запуск MVP**.
 
 <p align="left">
   <a href="https://github.com/NESTREN">
-    <img src="https://komarev.com/ghpvc/?username=NESTREN&label=Profile%20views&color=0e75b6&style=flat" alt="profile views"/>
+    <img src="https://komarev.com/ghpvc/?username=NESTREN&label=Profile%20Views&color=0ea5e9&style=for-the-badge" alt="profile views"/>
   </a>
   <a href="https://github.com/NESTREN?tab=followers">
-    <img src="https://img.shields.io/github/followers/NESTREN?label=Followers&style=social" alt="followers"/>
+    <img src="https://img.shields.io/github/followers/NESTREN?label=Followers&style=for-the-badge&color=22c55e" alt="followers"/>
+  </a>
+  <a href="https://github.com/NESTREN?tab=repositories">
+    <img src="https://img.shields.io/badge/Public%20Repos-view-6366f1?style=for-the-badge&logo=github" alt="public repos"/>
   </a>
 </p>
 
@@ -15,26 +18,26 @@
 
 ## 🧠 Профиль в 30 сек
 - 🤖 Проектирую и разрабатываю Telegram-ботов на **aiogram**
-- 🏗 Умею строить логику через **FSM**, сервисный слой и модули
+- 🏗 Умею строить логику через **FSM**, сервисный слой и модульную архитектуру
 - 🗄 Работаю с **SQLite**, постепенно усиливаю стек в сторону **PostgreSQL**
-- 🚀 Делаю решения, которые можно быстро запустить и поддерживать
-- 🔧 Люблю понятную структуру проекта, DX и аккуратный UX в Telegram
+- 🚀 Делаю решения, которые можно быстро запустить и удобно поддерживать
+- 🔧 Люблю чистый DX, понятную структуру проекта и аккуратный UX внутри Telegram
 
 ---
 
 ## 🛠 Технологический стек
 
 ### Основной
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
-![aiogram](https://img.shields.io/badge/aiogram-3.x-2CA5E0)
-![Telegram](https://img.shields.io/badge/Telegram-Bot-26A5E4?logo=telegram&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![aiogram](https://img.shields.io/badge/aiogram-3.x-2CA5E0?style=for-the-badge)
+![Telegram](https://img.shields.io/badge/Telegram-Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ### Изучаю / усиливаю
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-learning-336791?logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-learning-2496ED?logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-planned-DC382D?logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-learning-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-learning-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-planned-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ---
 
@@ -45,21 +48,16 @@ flowchart LR
     A[🚀 NESTREN Projects]
 
     subgraph T[🤖 Telegram Bots]
-      B[aio-warehouse-bot
-Складской учет + отчеты]
-      C[aio-sell-bot
-Telegram-магазин]
-      D[support-bot-aio
-Helpdesk + тикеты]
-      E[aiobtcbottg
-Курс BTC/ETH]
-      F[aio-shifr-bot
-SHIFR1 шифрование]
+      B[aio-warehouse-bot\nСкладской учет + отчеты]
+      C[aio-sell-bot\nTelegram-магазин]
+      D[support-bot-aio\nHelpdesk + тикеты]
+      E[aiobtcbottg\nКурс BTC/ETH]
+      F[aio-shifr-bot\nSHIFR1 шифрование]
     end
 
     subgraph J[☕ Java]
-      G[biome-nickname-plugin
-Minecraft Paper]
+      G[biome-nickname-plugin\nMinecraft Paper]
+      H[afk-fish-mc\nAFK рыбалка в Minecraft]
     end
 
     A --> B
@@ -68,6 +66,7 @@ Minecraft Paper]
     A --> E
     A --> F
     A --> G
+    A --> H
 
     classDef core fill:#1f6feb,color:#ffffff,stroke:#58a6ff,stroke-width:1px;
     classDef tg fill:#0d1117,color:#c9d1d9,stroke:#2ea043,stroke-width:1px;
@@ -75,7 +74,7 @@ Minecraft Paper]
 
     class A core;
     class B,C,D,E,F tg;
-    class G java;
+    class G,H java;
 ```
 
 ---
@@ -88,22 +87,18 @@ Minecraft Paper]
 | **aio-warehouse-bot** | Склад-бот для бизнеса: остатки, склады, отчеты, массовая загрузка | Python, aiogram, SQLite | [GitHub](https://github.com/NESTREN/aio-warehouse-bot) |
 | **aio-sell-bot** | Готовый Telegram-магазин с чистой архитектурой и удобным UX | Python, aiogram, SQLite | [GitHub](https://github.com/NESTREN/aio-sell-bot) |
 
-### 📦 Другие проекты
+### 📦 Другие Telegram-проекты
 | Проект | Кратко | Ссылка |
 |---|---|---|
 | **aiobtcbottg** | Бот с актуальным курсом BTC/ETH по `/price` | [GitHub](https://github.com/NESTREN/aiobtcbottg) |
 | **support-bot-aio** | Helpdesk-бот: тикеты, админ-панель, изображения, SQLite | [GitHub](https://github.com/NESTREN/support-bot-aio) |
 | **aio-shifr-bot** | Шифрование/расшифровка сообщений в формате `SHIFR1.<payload>` | [GitHub](https://github.com/NESTREN/aio-shifr-bot) |
-| **biome-nickname-plugin** | Java-плагин для Minecraft Paper: цветной индикатор в чате и табе | [GitHub](https://github.com/NESTREN/biome-nickname-plugin) |
 
----
-
-## 🧭 Roadmap
-- [ ] Переводить новые проекты на PostgreSQL
-- [ ] Контейнеризировать ботов через Docker
-- [ ] Добавить фоновые задачи/очереди
-- [ ] Настроить production-ready деплой на VPS
-- [ ] Сделать шаблон собственного boilerplate для Telegram-ботов
+### ☕ Java-проекты
+| Проект | Кратко | Ссылка |
+|---|---|---|
+| **biome-nickname-plugin** | Плагин для Minecraft Paper: цветной индикатор в чате и табе | [GitHub](https://github.com/NESTREN/biome-nickname-plugin) |
+| **afk-fish-mc** | Minecraft-проект для AFK-рыбалки | [GitHub](https://github.com/NESTREN/afk-fish-mc) |
 
 ---
 
@@ -117,6 +112,15 @@ Minecraft Paper]
 <p>
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nestren&theme=tokyo-night&hide_border=true" alt="GitHub activity graph" />
 </p>
+
+---
+
+## 🧭 Roadmap
+- [ ] Переводить новые проекты на PostgreSQL
+- [ ] Контейнеризировать ботов через Docker
+- [ ] Добавить фоновые задачи/очереди
+- [ ] Настроить production-ready деплой на VPS
+- [ ] Сделать свой boilerplate для Telegram-ботов
 
 ---
 
