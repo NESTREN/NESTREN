@@ -48,16 +48,29 @@ flowchart LR
     A[🚀 NESTREN Projects]
 
     subgraph T[🤖 Telegram Bots]
-      B[aio-warehouse-bot / Складской учет + отчеты]
-      C[aio-sell-bot / Telegram-магазин]
-      D[support-bot-aio / Helpdesk + тикеты]
-      E[aiobtcbottg / Курс BTC/ETH]
-      F[aio-shifr-bot / SHIFR1 шифрование]
+      B[aio-warehouse-bot
+Складской учет + отчеты]
+      C[aio-sell-bot
+Telegram-магазин]
+      D[support-bot-aio
+Helpdesk + тикеты]
+      E[aiobtcbottg
+Курс BTC/ETH]
+      F[aio-shifr-bot
+SHIFR1 шифрование]
     end
 
     subgraph J[☕ Java]
-      G[biome-nickname-plugin / Отображение цвета символа в зависимости от биома]
-      H[afk-fish-mc / AFK рыбалка в Minecraft]
+      G[biome-nickname-plugin
+Minecraft Paper]
+      H[afk-fish-mc
+AFK рыбалка в Minecraft]
+    end
+
+    subgraph AI[🧠 AI / Utility]
+      I[openttd-smart-advisor
+Рекомендации по развитию
+города и транспорта в OpenTTD]
     end
 
     A --> B
@@ -67,14 +80,17 @@ flowchart LR
     A --> F
     A --> G
     A --> H
+    A --> I
 
     classDef core fill:#1f6feb,color:#ffffff,stroke:#58a6ff,stroke-width:1px;
     classDef tg fill:#0d1117,color:#c9d1d9,stroke:#2ea043,stroke-width:1px;
     classDef java fill:#161b22,color:#f0f6fc,stroke:#d29922,stroke-width:1px;
+    classDef ai fill:#111827,color:#f9fafb,stroke:#a855f7,stroke-width:1px;
 
     class A core;
     class B,C,D,E,F tg;
     class G,H java;
+    class I ai;
 ```
 
 ---
@@ -100,11 +116,19 @@ flowchart LR
 | **biome-nickname-plugin** | Плагин для Minecraft Paper: цветной индикатор в чате и табе | [GitHub](https://github.com/NESTREN/biome-nickname-plugin) |
 | **afk-fish-mc** | Minecraft-проект для AFK-рыбалки | [GitHub](https://github.com/NESTREN/afk-fish-mc) |
 
+### 🧠 AI / Utility-проекты
+| Проект | Развернутое описание | Ссылка |
+|---|---|---|
+| **openttd-smart-advisor** | Инструмент-советник для OpenTTD: анализирует ситуацию в городе/логистике и подсказывает, что улучшить дальше (маршруты, транспортные приоритеты, потенциальные узкие места и следующие шаги развития). Удобен для планирования эффективной транспортной сети в стиле «что делать сейчас». | [GitHub](https://github.com/NESTREN/openttd-smart-advisor) |
+
 ---
 
 ## 📈 GitHub активность
 
-
+<p>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nestren&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=nestren&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
 
 <p>
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nestren&theme=tokyo-night&hide_border=true" alt="GitHub activity graph" />
