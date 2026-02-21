@@ -1,4 +1,4 @@
-# 👋 Привет, я Юрий (@NESTREN)
+# 👋 Привет, я нест
 
 💻 **Python-разработчик**, фокус: **Telegram-боты, автоматизация, чистая архитектура и быстрый запуск MVP**.
 
@@ -48,16 +48,16 @@ flowchart LR
     A[🚀 NESTREN Projects]
 
     subgraph T[🤖 Telegram Bots]
-      B[aio-warehouse-bot\nСкладской учет + отчеты]
-      C[aio-sell-bot\nTelegram-магазин]
-      D[support-bot-aio\nHelpdesk + тикеты]
-      E[aiobtcbottg\nКурс BTC/ETH]
-      F[aio-shifr-bot\nSHIFR1 шифрование]
+      B[aio-warehouse-bot / Складской учет + отчеты]
+      C[aio-sell-bot / Telegram-магазин]
+      D[support-bot-aio / Helpdesk + тикеты]
+      E[aiobtcbottg / Курс BTC/ETH]
+      F[aio-shifr-bot / SHIFR1 шифрование]
     end
 
     subgraph J[☕ Java]
-      G[biome-nickname-plugin\nMinecraft Paper]
-      H[afk-fish-mc\nAFK рыбалка в Minecraft]
+      G[biome-nickname-plugin / Отображение цвета символа в зависимости от биома]
+      H[afk-fish-mc / AFK рыбалка в Minecraft]
     end
 
     A --> B
@@ -104,10 +104,7 @@ flowchart LR
 
 ## 📈 GitHub активность
 
-<p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=nestren&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="GitHub stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=nestren&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
+
 
 <p>
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=nestren&theme=tokyo-night&hide_border=true" alt="GitHub activity graph" />
