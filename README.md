@@ -78,20 +78,20 @@ SHIFR1 шифрование]
     subgraph J[☕ Java / Minecraft]
       G[biome-nickname-plugin
 Цветной индикатор ника]
-      H[afk-fish-mc ⭐ NEW
+      H[afk-fish-mc 
 AFK рыбалка + авто-цикл]
-      K[chatgl-mc ⭐ NEW
+      K[chatgl-mc 
 Чат/интеграция для Minecraft]
     end
 
     subgraph AI[🧠 AI / Utility]
-      I[openttd-smart-advisor ⭐ NEW
+      I[openttd-smart-advisor 
 AI-советник для OpenTTD
 маршруты и узкие места]
     end
 
     subgraph P[🧩 Core / Protocol]
-      L[nestren-protocol ⭐ NEW
+      L[nestren-protocol 
 Протокол/контракт обмена
 для сервисов и интеграций]
     end
