@@ -1,4 +1,4 @@
-# 👋 Привет, я нест
+# 👋 Привет, я Юрий (@NESTREN)
 
 💻 **Python-разработчик**, фокус: **Telegram-боты, автоматизация, чистая архитектура и быстрый запуск MVP**.
 
@@ -11,6 +11,21 @@
   </a>
   <a href="https://github.com/NESTREN?tab=repositories">
     <img src="https://img.shields.io/badge/Public%20Repos-view-6366f1?style=for-the-badge&logo=github" alt="public repos"/>
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/NESTREN/openttd-smart-advisor">
+    <img src="https://img.shields.io/badge/New-openttd--smart--advisor-8b5cf6?style=for-the-badge&logo=github" alt="new openttd smart advisor"/>
+  </a>
+  <a href="https://github.com/NESTREN/afk-fish-mc">
+    <img src="https://img.shields.io/badge/New-afk--fish--mc-f59e0b?style=for-the-badge&logo=github" alt="new afk fish mc"/>
+  </a>
+  <a href="https://github.com/NESTREN/chatgl-mc">
+    <img src="https://img.shields.io/badge/New-chatgl--mc-22d3ee?style=for-the-badge&logo=github" alt="new chatgl mc"/>
+  </a>
+  <a href="https://github.com/NESTREN/nestren-protocol">
+    <img src="https://img.shields.io/badge/New-nestren--protocol-a855f7?style=for-the-badge&logo=github" alt="new nestren protocol"/>
   </a>
 </p>
 
@@ -60,17 +75,25 @@ Helpdesk + тикеты]
 SHIFR1 шифрование]
     end
 
-    subgraph J[☕ Java]
+    subgraph J[☕ Java / Minecraft]
       G[biome-nickname-plugin
-Minecraft Paper]
-      H[afk-fish-mc
-AFK рыбалка в Minecraft]
+Цветной индикатор ника]
+      H[afk-fish-mc ⭐ NEW
+AFK рыбалка + авто-цикл]
+      K[chatgl-mc ⭐ NEW
+Чат/интеграция для Minecraft]
     end
 
     subgraph AI[🧠 AI / Utility]
-      I[openttd-smart-advisor
-Рекомендации по развитию
-города и транспорта в OpenTTD]
+      I[openttd-smart-advisor ⭐ NEW
+AI-советник для OpenTTD
+маршруты и узкие места]
+    end
+
+    subgraph P[🧩 Core / Protocol]
+      L[nestren-protocol ⭐ NEW
+Протокол/контракт обмена
+для сервисов и интеграций]
     end
 
     A --> B
@@ -80,18 +103,33 @@ AFK рыбалка в Minecraft]
     A --> F
     A --> G
     A --> H
+    A --> K
     A --> I
+    A --> L
 
     classDef core fill:#1f6feb,color:#ffffff,stroke:#58a6ff,stroke-width:1px;
     classDef tg fill:#0d1117,color:#c9d1d9,stroke:#2ea043,stroke-width:1px;
     classDef java fill:#161b22,color:#f0f6fc,stroke:#d29922,stroke-width:1px;
     classDef ai fill:#111827,color:#f9fafb,stroke:#a855f7,stroke-width:1px;
+    classDef protocol fill:#1f2937,color:#f9fafb,stroke:#f472b6,stroke-width:1px;
 
     class A core;
     class B,C,D,E,F tg;
-    class G,H java;
+    class G,H,K java;
     class I ai;
+    class L protocol;
 ```
+
+---
+
+## 🆕 Последние репозитории
+
+| Репозиторий | Статус | Что внутри | Ссылка |
+|---|---|---|---|
+| **openttd-smart-advisor** | New | AI-помощник для OpenTTD: подсказки по развитию города, планированию маршрутов и поиску узких мест транспортной сети. | [GitHub](https://github.com/NESTREN/openttd-smart-advisor) |
+| **afk-fish-mc** | New | Minecraft-проект для AFK-рыбалки с упором на удобный сценарий использования и быструю настройку. | [GitHub](https://github.com/NESTREN/afk-fish-mc) |
+| **chatgl-mc** | New | Новый Minecraft-репозиторий для чат-интеграции/геймплейных взаимодействий (Java/Paper-направление). | [GitHub](https://github.com/NESTREN/chatgl-mc) |
+| **nestren-protocol** | New | Репозиторий протокола: единый контракт/формат взаимодействия между компонентами и интеграциями. | [GitHub](https://github.com/NESTREN/nestren-protocol) |
 
 ---
 
@@ -115,11 +153,17 @@ AFK рыбалка в Minecraft]
 |---|---|---|
 | **biome-nickname-plugin** | Плагин для Minecraft Paper: цветной индикатор в чате и табе | [GitHub](https://github.com/NESTREN/biome-nickname-plugin) |
 | **afk-fish-mc** | Minecraft-проект для AFK-рыбалки | [GitHub](https://github.com/NESTREN/afk-fish-mc) |
+| **chatgl-mc** | Minecraft-репозиторий для чатовых механик/интеграции | [GitHub](https://github.com/NESTREN/chatgl-mc) |
 
 ### 🧠 AI / Utility-проекты
 | Проект | Развернутое описание | Ссылка |
 |---|---|---|
-| **openttd-smart-advisor** | Инструмент-советник для OpenTTD: анализирует ситуацию в городе/логистике и подсказывает, что улучшить дальше (маршруты, транспортные приоритеты, потенциальные узкие места и следующие шаги развития). Удобен для планирования эффективной транспортной сети в стиле «что делать сейчас». | [GitHub](https://github.com/NESTREN/openttd-smart-advisor) |
+| **openttd-smart-advisor** | AI-инструмент для OpenTTD, который помогает принимать решения по развитию транспортной сети: оценивает текущее состояние города/логистики, предлагает следующие шаги, подсказывает приоритеты по маршрутам и помогает находить потенциальные узкие места. Подходит как быстрый «advice layer» при планировании долгой партии. | [GitHub](https://github.com/NESTREN/openttd-smart-advisor) |
+
+### 🧩 Core / Protocol
+| Проект | Описание | Ссылка |
+|---|---|---|
+| **nestren-protocol** | Базовый протокол/контракт для обмена данными между сервисами и проектами: задаёт общую структуру взаимодействия и облегчает интеграции между репозиториями. | [GitHub](https://github.com/NESTREN/nestren-protocol) |
 
 ---
 
