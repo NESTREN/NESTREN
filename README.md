@@ -27,6 +27,12 @@
   <a href="https://github.com/NESTREN/nestren-protocol">
     <img src="https://img.shields.io/badge/New-nestren--protocol-a855f7?style=for-the-badge&logo=github" alt="new nestren protocol"/>
   </a>
+  <a href="https://github.com/NESTREN/mesh-erl-protocol">
+    <img src="https://img.shields.io/badge/New-mesh--erl--protocol-06b6d4?style=for-the-badge&logo=github" alt="new mesh erl protocol"/>
+  </a>
+  <a href="https://github.com/NESTREN/security-connect-protocol">
+    <img src="https://img.shields.io/badge/New-security--connect--protocol-ef4444?style=for-the-badge&logo=github" alt="new security connect protocol"/>
+  </a>
 </p>
 
 ---
@@ -59,65 +65,38 @@
 ## 🗺 Схема текущих репозиториев (по направлениям)
 
 ```mermaid
-flowchart LR
-    A[🚀 NESTREN Projects]
-
-    subgraph T[🤖 Telegram Bots]
-      B[aio-warehouse-bot
-Складской учет + отчеты]
-      C[aio-sell-bot
-Telegram-магазин]
-      D[support-bot-aio
-Helpdesk + тикеты]
-      E[aiobtcbottg
-Курс BTC/ETH]
-      F[aio-shifr-bot
-SHIFR1 шифрование]
-    end
-
-    subgraph J[☕ Java / Minecraft]
-      G[biome-nickname-plugin
-Цветной индикатор ника]
-      H[afk-fish-mc 
-AFK рыбалка + авто-цикл]
-      K[chatgl-mc 
-Чат/интеграция для Minecraft]
-    end
-
-    subgraph AI[🧠 AI / Utility]
-      I[openttd-smart-advisor 
-AI-советник для OpenTTD
-маршруты и узкие места]
-    end
-
-    subgraph P[🧩 Core / Protocol]
-      L[nestren-protocol 
-Протокол/контракт обмена
-для сервисов и интеграций]
-    end
-
-    A --> B
-    A --> C
-    A --> D
-    A --> E
-    A --> F
-    A --> G
-    A --> H
-    A --> K
-    A --> I
-    A --> L
-
-    classDef core fill:#1f6feb,color:#ffffff,stroke:#58a6ff,stroke-width:1px;
-    classDef tg fill:#0d1117,color:#c9d1d9,stroke:#2ea043,stroke-width:1px;
-    classDef java fill:#161b22,color:#f0f6fc,stroke:#d29922,stroke-width:1px;
-    classDef ai fill:#111827,color:#f9fafb,stroke:#a855f7,stroke-width:1px;
-    classDef protocol fill:#1f2937,color:#f9fafb,stroke:#f472b6,stroke-width:1px;
-
-    class A core;
-    class B,C,D,E,F tg;
-    class G,H,K java;
-    class I ai;
-    class L protocol;
+mindmap
+  root((🚀 NESTREN Projects))
+    🤖 Telegram Bots
+      aio-warehouse-bot
+        складской учет
+        отчеты и массовая загрузка
+      aio-sell-bot
+        Telegram-магазин
+      support-bot-aio
+        helpdesk + тикеты
+      aiobtcbottg
+        курс BTC/ETH
+      aio-shifr-bot
+        SHIFR1 шифрование
+    ☕ Java / Minecraft
+      biome-nickname-plugin
+        цветной индикатор ника
+      afk-fish-mc ⭐ NEW
+        AFK рыбалка + авто-цикл
+      chatgl-mc ⭐ NEW
+        чат/интеграция для Minecraft
+    🧠 AI / Utility
+      openttd-smart-advisor ⭐ NEW
+        AI-советник для OpenTTD
+        маршруты и узкие места
+    🧩 Core / Protocol
+      nestren-protocol ⭐ NEW
+        базовый контракт обмена
+      mesh-erl-protocol ⭐ NEW
+        mesh/ERL протокол интеграции
+      security-connect-protocol ⭐ NEW
+        security-first протокол соединения
 ```
 
 ---
@@ -130,6 +109,8 @@ AI-советник для OpenTTD
 | **afk-fish-mc** | New | Minecraft-проект для AFK-рыбалки с упором на удобный сценарий использования и быструю настройку. | [GitHub](https://github.com/NESTREN/afk-fish-mc) |
 | **chatgl-mc** | New | Новый Minecraft-репозиторий для чат-интеграции/геймплейных взаимодействий (Java/Paper-направление). | [GitHub](https://github.com/NESTREN/chatgl-mc) |
 | **nestren-protocol** | New | Репозиторий протокола: единый контракт/формат взаимодействия между компонентами и интеграциями. | [GitHub](https://github.com/NESTREN/nestren-protocol) |
+| **mesh-erl-protocol** | New | Протокол для mesh/ERL-взаимодействий между сервисами и интеграциями. | [GitHub](https://github.com/NESTREN/mesh-erl-protocol) |
+| **security-connect-protocol** | New | Security-first протокол подключения и безопасного обмена между компонентами. | [GitHub](https://github.com/NESTREN/security-connect-protocol) |
 
 ---
 
@@ -164,6 +145,8 @@ AI-советник для OpenTTD
 | Проект | Описание | Ссылка |
 |---|---|---|
 | **nestren-protocol** | Базовый протокол/контракт для обмена данными между сервисами и проектами: задаёт общую структуру взаимодействия и облегчает интеграции между репозиториями. | [GitHub](https://github.com/NESTREN/nestren-protocol) |
+| **mesh-erl-protocol** | Протокол для mesh/ERL-модели взаимодействия сервисов: помогает стандартизировать интеграции и формат обмена между узлами системы. | [GitHub](https://github.com/NESTREN/mesh-erl-protocol) |
+| **security-connect-protocol** | Протокол безопасного соединения с акцентом на security-first подход: единые правила подключения, обмена и валидации взаимодействий. | [GitHub](https://github.com/NESTREN/security-connect-protocol) |
 
 ---
 
