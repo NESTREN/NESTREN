@@ -62,44 +62,67 @@
 
 ---
 
-## 🗺 Схема текущих репозиториев (по направлениям)
+## 🗺 Схема текущих репозиториев
+
+> Визуальная карта портфолио: от прикладных Telegram-продуктов до Minecraft-плагинов, AI-утилит и протокольного слоя.
+
+<div align="center">
 
 ```mermaid
-mindmap
-  root((🚀 NESTREN Projects))
-    🤖 Telegram Bots
-      aio-warehouse-bot
-        складской учет
-        отчеты и массовая загрузка
-      aio-sell-bot
-        Telegram-магазин
-      support-bot-aio
-        helpdesk + тикеты
-      aiobtcbottg
-        курс BTC/ETH
-      aio-shifr-bot
-        SHIFR1 шифрование
-    ☕ Java / Minecraft
-      biome-nickname-plugin
-        цветной индикатор ника
-      afk-fish-mc ⭐ NEW
-        AFK рыбалка + авто-цикл
-      chatgl-mc ⭐ NEW
-        чат/интеграция для Minecraft
-    🧠 AI / Utility
-      openttd-smart-advisor ⭐ NEW
-        AI-советник для OpenTTD
-        маршруты и узкие места
-    🧩 Core / Protocol
-      nestren-protocol ⭐ NEW
-        базовый контракт обмена
-      mesh-erl-protocol ⭐ NEW
-        mesh/ERL протокол интеграции
-      security-connect-protocol ⭐ NEW
-        security-first протокол соединения
+flowchart TB
+  classDef root fill:#111827,stroke:#38bdf8,stroke-width:3px,color:#f8fafc
+  classDef telegram fill:#0f2742,stroke:#38bdf8,stroke-width:2px,color:#e0f2fe
+  classDef minecraft fill:#20351f,stroke:#84cc16,stroke-width:2px,color:#ecfccb
+  classDef ai fill:#2e1f47,stroke:#a78bfa,stroke-width:2px,color:#f3e8ff
+  classDef protocol fill:#3b1f2a,stroke:#fb7185,stroke-width:2px,color:#ffe4e6
+  classDef repo fill:#172033,stroke:#64748b,stroke-width:1.5px,color:#f8fafc
+  classDef new fill:#312e81,stroke:#facc15,stroke-width:2px,color:#fef9c3
+  classDef focus fill:#083344,stroke:#22d3ee,stroke-width:2px,color:#ecfeff
+
+  N((🚀 NESTREN<br/>Repository Map)):::root
+
+  N --> T[🤖 Telegram Bots<br/>продукты, автоматизация, бизнес-логика]:::telegram
+  N --> M[☕ Java / Minecraft<br/>Paper-плагины и игровые утилиты]:::minecraft
+  N --> A[🧠 AI / Utility<br/>помощники и прикладные инструменты]:::ai
+  N --> P[🧩 Core / Protocol<br/>контракты, интеграции, безопасность]:::protocol
+
+  T --> TW[aio-warehouse-bot<br/>📦 складской учет · отчеты · импорт]:::focus
+  T --> TS[aio-sell-bot<br/>🛒 Telegram-магазин · каталог · заказы]:::focus
+  T --> TH[support-bot-aio<br/>🎫 helpdesk · тикеты · админ-панель]:::repo
+  T --> TB[aiobtcbottg<br/>₿ BTC/ETH курс по команде]:::repo
+  T --> TC[aio-shifr-bot<br/>🔐 SHIFR1 шифрование сообщений]:::repo
+
+  M --> MB[biome-nickname-plugin<br/>🌿 цвет ника по биому]:::repo
+  M --> MF[afk-fish-mc<br/>🎣 AFK-рыбалка · авто-цикл]:::new
+  M --> MG[chatgl-mc<br/>💬 чатовые механики / интеграция]:::new
+
+  A --> AO[openttd-smart-advisor<br/>🛤 AI-советник: маршруты, города, узкие места]:::new
+
+  P --> PN[nestren-protocol<br/>📜 базовый контракт обмена]:::new
+  P --> PM[mesh-erl-protocol<br/>🕸 mesh/ERL взаимодействие узлов]:::new
+  P --> PS[security-connect-protocol<br/>🛡 security-first подключение]:::new
 ```
 
----
+</div>
+
+### 🧭 Быстрая навигация по направлениям
+
+| Направление | Для чего | Репозитории | Акцент |
+|---|---|---|---|
+| **🤖 Telegram Bots** | Автоматизация, магазины, helpdesk, утилиты внутри Telegram | `aio-warehouse-bot`, `aio-sell-bot`, `support-bot-aio`, `aiobtcbottg`, `aio-shifr-bot` | Python, aiogram, SQLite, FSM, сервисный слой |
+| **☕ Java / Minecraft** | Игровые плагины и удобные механики для Minecraft-серверов | `biome-nickname-plugin`, `afk-fish-mc`, `chatgl-mc` | Java, Paper, чат, игровые циклы |
+| **🧠 AI / Utility** | Инструменты-помощники для анализа и подсказок | `openttd-smart-advisor` | AI-advice layer, планирование, диагностика |
+| **🧩 Core / Protocol** | Единые правила обмена, интеграций и безопасного подключения | `nestren-protocol`, `mesh-erl-protocol`, `security-connect-protocol` | Контракты, mesh-взаимодействие, security-first |
+
+### 🎨 Легенда карты
+
+| Маркер | Значение |
+|---|---|
+| **Бирюзовая рамка** | ключевые Telegram-проекты с практическим бизнес-сценарием |
+| **Желтая рамка** | новые или активно расширяемые репозитории |
+| **Розовая ветка** | протокольный и security-слой |
+| **Фиолетовая ветка** | AI/utility-направление |
+
 
 ## 🆕 Последние репозитории
 
